@@ -1,0 +1,106 @@
+@media screen and (min-width: 992px) and (max-width: 1280px){
+
+   .header-area .main-menu li {
+    margin-left: calc(15px + 25 * ((100vw - 992px) / 1280));
+}
+
+
+} 
+
+@media screen and (min-width: 320px) and (max-width: 1170px){
+    h1 {
+     font-size: calc(30px + 25 * ((100vw - 360px) / 1170));
+   }
+   h2{
+    font-size: calc(22px + 13 * ((100vw - 360px) / 1170));
+   }
+
+   .hero-area{
+       padding-bottom: calc(120px + 160 * ((100vw - 360px) / 1170));
+   }
+   .hero-area h4{
+        font-size: calc(15px + 5 * ((100vw - 360px) / 1170));
+    }
+    .about-us-area, .marketing-insight-area, .contact-info-area, .trams-condition{
+        padding-top: calc(60px + 40 * ((100vw - 360px) / 1170));
+        padding-bottom: calc(60px + 40 * ((100vw - 360px) / 1170));
+    }
+
+    .single-service-item {
+        padding: calc(25px + 35 * ((100vw - 360px) / 1170));
+    }
+    .single-service-item h2{
+        font-size: calc(22px + 4 * ((100vw - 360px) / 1170));
+    }
+  
+
+} 
+@media only screen and (max-width: 992px) {
+    .fixed-top {
+        top: 0px;
+        transform: translateY(0px);
+    }
+    #navbar_top {
+        padding: 20px 0;
+    }
+   
+    .header-area .main-menu li{
+        margin: 0;
+    }
+    .header-area .main-menu li a:hover:after, .header-area .main-menu li.active>a:after, .footer-menu li a:hover:after {
+        width: 30px;
+    }
+    .header-area .main-menu li a{
+        display: block;
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ccc3;
+    }
+    .navbar-nav{
+        text-align: center;
+        background: #191919;
+    }
+ 
+
+
+} /* max-width 992px, large screens */
+
+
+@media only screen and (max-width: 767px) { 
+   .marketing-insight-wrapper .owl-stage-outer:after {
+       display: none;
+    }
+    .about-right-img img {
+        height: calc(300px + 100 * ((100vw - 360px) / 767));
+    }
+    .single-marketing-insight-item {
+        margin: 5px;
+      }
+
+      .footer-menu li a{
+        margin-left: 0;
+        margin-right: calc(15px + 15 * ((100vw - 360px) / 576));
+    }
+   
+
+} /* min-width 768px, medium screens */
+
+@media only screen and (max-width: 576px) { 
+    .w-omega-left img {
+        height: calc(280px + 100 * ((100vw - 360px) / 576));
+    }
+    .contact-info-area iframe{
+        height: calc(280px + 170 * ((100vw - 360px) / 576));
+    }
+
+    .footer-area {
+        padding-top: calc(40px + 30 * ((100vw - 360px) / 576));
+      }
+   
+}
+    @media only screen and (max-width: 480px) { 
+ 
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* Medium screens */
+
